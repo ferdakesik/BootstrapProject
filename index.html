@@ -99,12 +99,12 @@
                     <h3 class="card-header bg-info text-white">Reserve a Campsite</h3>
                       <div class="card-body">
                         <form id="reserveForm">
-                          <div class="row flex-column flex-sm-row">
-                            <div class="col col-sm-6 mb-3">
-                              <label for="nuCampers" class="col-form-label">Number of Campers</label>
-                            </div>
-                            <div class="col col-sm-6 mb-3">
-                              <select id="nuCampers" name="nuCampers" class="form-select form-control form-group">
+                          <div class="form-group row">
+                            
+                              <label for="nuCampers" class="col-sm-6 col-form-label">Number of Campers</label>
+                            
+                            <div class="col-sm-6">
+                              <select id="nuCampers" name="nuCampers" class="form-control">
                                 <option value="" selected>Select...</option>
                                 <option value="1">1 campers</option>
                                 <option value="2">2 campers</option>
@@ -115,16 +115,16 @@
                               </select>
                             </div>
                           </div>
-                          <div class="row flex-column flex-sm-row">
-                            <div class="col-12 col-sm-6 mb-3">
-                              <label for="Date" class="col-form-label">Date</label>
-                            </div>
+                          <div class="form-group row">
+                            
+                              <label for="Date" class="col-sm-6 col-form-label">Date</label>
+                            
                             <div class="col">
-                              <input type="date" id="date" name="date" class="form-label form-control form-group form-select" placeholder="MM/DD/YYYY">
+                              <input type="date" id="date" name="date" class="form-control" placeholder="MM/DD/YYYY">
                             </div>
                           </div>
-                          <div class="row">
-                            <div class="col mb-3 p-3">
+                          <div class="form-group row">
+                            <div class="col">
                               <button type="submit" class="btn btn-primary">Search</button>
                             </div>
                           </div>
