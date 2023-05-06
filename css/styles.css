@@ -49,4 +49,16 @@ a, a:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/*# sourceMappingURL=styles.css.map */
+
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white;
+}
+
+
+#reserveModal .modal-header, #loginModal .modal-header {
+  background-color: #17A2B8;
+  color: white;
+}
+
